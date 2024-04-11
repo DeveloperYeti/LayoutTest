@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/btn_h1"
+        android:text="@string/text"
+        android:textStyle="bold"
+        android:gravity="center"
+
+        />
+    <Button
+        android:layout_width="@dimen/btn_w1"
+        android:layout_height="@dimen/btn_h1"
+        android:backgroundTint="@color/Lime"
+        android:gravity="center_horizontal"
+        android:text="@string/btn1"
+        android:textColor="@color/black"
+        android:layout_gravity="center"/>
+
+
+    <Button
+        android:layout_width="@dimen/btn_w1"
+        android:layout_height="@dimen/btn_h1"
+        android:layout_gravity="left"
+        android:backgroundTint="@color/Lime"
+        android:gravity="center_vertical"
+        android:rotationX="8"
+        android:text="@string/btn2"
+        android:textColor="@color/black"
+        />
+    <Button
+        android:layout_width="@dimen/btn_w1"
+        android:layout_height="@dimen/btn_h1"
+        android:layout_gravity="right"
+        android:backgroundTint="@color/Lime"
+        android:gravity="right|bottom"
+        android:text="@string/btn3"
+        android:textColor="@color/black"
+
+        />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LayoutTest</string>
+    <string name="btn1">버튼1</string>
+    <string name="btn2">버튼2</string>
+    <string name="btn3">버튼3</string>
+    <string name="text">뭔데</string>
+</resources>
